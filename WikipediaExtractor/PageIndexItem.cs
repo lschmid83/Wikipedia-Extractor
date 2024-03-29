@@ -1,7 +1,7 @@
 ﻿namespace WikipediaExtractor
 {
     /// <summary>
-    /// Wikipedia index file page index item.
+    /// Stores Wikipedia page index data.
     /// </summary>
     public class PageIndexItem
     {
@@ -13,12 +13,9 @@
 
         public static char Separator { get; set; } = ':';
 
-        public PageIndexItem Parse(string line)
+        public PageIndexItem Parse(string text)
         {
-            // Split index line by separator.
-            var parts = line.Split(new [] { Separator }, 3);
-            
-            // Initialize PageIndexItem.
+            var parts = text.Split(new [] { Separator }, 3);
             return new PageIndexItem
             {
                 ByteStart = long.Parse(parts[0]),

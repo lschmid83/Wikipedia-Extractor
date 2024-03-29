@@ -2,10 +2,7 @@
 
 namespace WikipediaExtractor
 {
-    /// <summary>
-    /// PageFound event arguments.
-    /// </summary>
-    public class PageFoundEventArgs
+    public class DataDumpPageFoundEventArgs
     {
         public XElement Page { get; set; }
         public string PageTitle { get; set; }

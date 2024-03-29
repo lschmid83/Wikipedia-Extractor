@@ -6,7 +6,7 @@ namespace WikipediaExtractor
 {
     public interface IDataDumpReader
     {
-        event EventHandler<PageFoundEventArgs> PageFound;
+        event EventHandler<DataDumpPageFoundEventArgs> DataDumpPageFound;
 
         void Dispose();
         IEnumerable<XElement> Search(IEnumerable<PageIndexItem> pageIndexItems);

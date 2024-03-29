@@ -1,16 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30011.22
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WikipediaExtractor", "WikipediaExtractor\WikipediaExtractor.csproj", "{8531A1C0-E80B-4BDD-A928-D5E001FAB408}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WikipediaExtractor.Tests", "WikipediaExtractor.Tests\WikipediaExtractor.Tests.csproj", "{A21AF169-912E-4374-82BF-81939ECB7E37}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{23B58354-48C8-444D-8962-0C62179654F6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{68DC563D-29E2-4133-8B31-95774928BE37}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WikipediaExtractor", "WikipediaExtractor\WikipediaExtractor.csproj", "{8628D047-6ECE-4229-AB15-742CF2253CF3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WikipediaExtractor.Tests", "WikipediaExtractor.Tests\WikipediaExtractor.Tests.csproj", "{569F0BA5-1D6D-4014-AF34-DB7161C662C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTest", "ConsoleTest\ConsoleTest.csproj", "{7E34128F-39D0-413D-B518-A2FC5E5E1D39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,19 +20,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8531A1C0-E80B-4BDD-A928-D5E001FAB408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8531A1C0-E80B-4BDD-A928-D5E001FAB408}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8531A1C0-E80B-4BDD-A928-D5E001FAB408}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8531A1C0-E80B-4BDD-A928-D5E001FAB408}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A21AF169-912E-4374-82BF-81939ECB7E37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A21AF169-912E-4374-82BF-81939ECB7E37}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A21AF169-912E-4374-82BF-81939ECB7E37}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A21AF169-912E-4374-82BF-81939ECB7E37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8628D047-6ECE-4229-AB15-742CF2253CF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8628D047-6ECE-4229-AB15-742CF2253CF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8628D047-6ECE-4229-AB15-742CF2253CF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8628D047-6ECE-4229-AB15-742CF2253CF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{569F0BA5-1D6D-4014-AF34-DB7161C662C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{569F0BA5-1D6D-4014-AF34-DB7161C662C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{569F0BA5-1D6D-4014-AF34-DB7161C662C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{569F0BA5-1D6D-4014-AF34-DB7161C662C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E34128F-39D0-413D-B518-A2FC5E5E1D39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E34128F-39D0-413D-B518-A2FC5E5E1D39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E34128F-39D0-413D-B518-A2FC5E5E1D39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E34128F-39D0-413D-B518-A2FC5E5E1D39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {2D8D7ABB-66E1-43E0-9C35-D9A9F57638D0}
+		SolutionGuid = {50369ECE-C160-412D-86B1-046401E061BD}
 	EndGlobalSection
 EndGlobal
