@@ -8,6 +8,11 @@ The test project can be run without using the data dump as all of the index and 
 
 This library does not parse the XML page elements instead it just returns an object containing the XML. There are other projects on GitHub for parsing the XML.
 
+Here are some screenshots of the library running:
+
+<img align='left' src='https://drive.google.com/uc?id=1d5y_9GKCelsbyn61Ui7oHYZYQhCB1MKG' width='240'>
+<img src='https://drive.google.com/uc?id=1IQeyd8hGIURlNH6VW9GjyjnShMoV9GYF' width='240'>
+
 # Example
 
 ```cs
