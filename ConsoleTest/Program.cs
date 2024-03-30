@@ -11,7 +11,7 @@ internal class Program
             "JavaScript"
         };
 
-        using (var indexSearcher = new PageIndexSearcher(@"F:\enwiki-20190701-pages-articles-multistream-index.txt"))
+        using (var indexSearcher = new PageIndexSearcher(@"c:\enwiki-20190701-pages-articles-multistream-index.txt"))
         {
             var pageIndexItems = indexSearcher.Search(pageTitles);
             foreach (PageIndexItem pii in pageIndexItems)
@@ -19,7 +19,7 @@ internal class Program
                 Console.WriteLine(pii.PageId + ": " + pii.PageTitle);
             }
 
-            using (var dataDumpReader = new DataDumpReader(@"F:\enwiki-20190701-pages-articles-multistream.xml.bz2"))
+            using (var dataDumpReader = new DataDumpReader(@"c:\enwiki-20190701-pages-articles-multistream.xml.bz2"))
             {
                 var results = dataDumpReader.Search(pageIndexItems);
                 foreach (var result in results) 
