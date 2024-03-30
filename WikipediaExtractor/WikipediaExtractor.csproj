@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Wikipedia Extractor</Title>
+    <Description>Wikipedia Extractor is a lightweight C# library which can be used to extract XML page data from a Wikipedia data dump.</Description>
+    <Copyright>Lawrence Schmid</Copyright>
+    <PackageProjectUrl>https://github.com/lschmid83/Wikipedia-Extractor</PackageProjectUrl>
+    <PackageIcon>wikipedia-extractor-icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/lschmid83/Wikipedia-Extractor</RepositoryUrl>
+    <PackageTags>Wikipedia;Data-Dump;Archive;Index;Extract</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\wikipedia-extractor-icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SharpZipLib" Version="1.2.0" />
+  </ItemGroup>
+
+</Project>
